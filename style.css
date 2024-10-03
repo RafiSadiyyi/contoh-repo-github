@@ -1,0 +1,65 @@
+@import url('font.css');
+body{
+    font-family: 'Poppins';
+    margin: 0;
+}
+hr{
+    border: 2px solid #ffea00;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+span{
+    font-weight: bold;
+}
+.foto img{
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 50%;
+    opacity: 0;
+    animation:w 2s forwards ease-in-out;
+}
+.nama{
+    text-align: center;
+    font-size: 12px;
+}
+.biodata {
+    padding: 30px;
+}
+.biodata h2{
+    text-align: center;
+}
+.deskripsi{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.tabel{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    border-bottom: 3px solid #fff698;
+}
+td,th{
+    padding: 15px;
+    border-bottom:1px solid #FCDE70;
+}
+th{
+    color: white;
+    background-color: #FCDE70;
+}
+@keyframes w{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.vidio{
+    display: flex;
+    justify-content: center;
+}
